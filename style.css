@@ -1,0 +1,464 @@
+*{
+     margin: 0;
+     padding: 0;
+}
+
+.container{
+     width: 1260px;
+     margin: 0 auto;
+     padding: 30px;
+}
+
+.header-div{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+
+.header-list{
+     width: 400px;
+     display: flex;
+     justify-content: space-between;
+     list-style: none;
+}
+
+.header-link{
+     text-decoration: none;
+     font-family: "Montserrat";
+     font-style: normal;
+     font-weight: 500;
+     font-size: 14px;
+     line-height: 17px;
+     letter-spacing: 0.03em;
+     color: #212121;
+}
+
+.header-list2{
+     display: flex;
+     justify-content: space-between;
+     width: 200px;
+     list-style: none;align-items: center;
+}
+
+
+.header-link2{
+     text-decoration: none;
+     font-family: "Montserrat";
+     font-style: normal;
+     font-weight: 700;
+     font-size: 24px;
+     line-height: 29px;
+     letter-spacing: 0.05em;
+     text-transform: uppercase;
+     color: #212121;
+}
+
+.header-list3{
+     list-style: none;
+     display: flex;
+     justify-content: space-between;
+     width: 300px;
+}
+
+.haeder-item3:nth-child(3){
+     width: 90px;
+     display: flex;
+     justify-content: space-between;
+}
+
+.haeder-link3{
+     text-decoration: none;
+     font-family: "Montserrat";
+     font-style: normal;
+     font-weight: 500;
+     font-size: 14px;
+     line-height: 17px;
+     letter-spacing: 0.03em;
+     color: #212121;
+}
+
+.about__div{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+
+.about-div{
+     width: 570px;
+}
+
+.about-text{
+     font-family: "Montserrat";
+     font-style: normal;
+     font-weight: 400;
+     font-size: 30px;
+     line-height: 37px;
+     letter-spacing: 0.02em;
+     color: #000000;
+     margin-bottom: 35px;
+}
+
+.about-bold{
+     font-family: "Montserrat";
+     font-style: normal;
+     font-weight: 700;
+     font-size: 55px;
+     line-height: 67px;
+     letter-spacing: 0.04em;
+     color: #000000;
+}
+
+.about-div3{
+     margin-top: 55px;
+}
+
+.about-link{
+     font-family: "Montserrat";
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 20px;
+     letter-spacing: 0.03em;
+     color: #FFFFFF;
+     background: #D7B399;
+     text-decoration: none;
+     padding: 18px 30px;
+     border-radius: 5px;
+}
+
+.about-div2{
+     width: 205px;
+     display: flex;
+     justify-content: space-between;
+     margin: 0 auto;
+}
+
+.about-span{
+     display: block;
+     width: 20px;
+     height: 3px;
+     background: #CECECE;
+}
+
+.about-span2{
+     display: block;
+     width: 20px;
+     height: 3px;
+     background-color:  #D7B399;
+}
+
+.info-section{
+     background-color: black;
+     margin-top: 70px;
+}
+
+.info-div{
+     width: 588px;
+     margin: 0 auto;
+}
+
+.info-hedding{
+     font-family: "Montserrat";
+     font-style: normal;
+     font-weight: 700;
+     font-size: 30px;
+     line-height: 37px;
+     text-align: center;
+     letter-spacing: 0.02em;
+     color: #FFFFFF;
+     margin-top: 80px;
+     margin-bottom: 23px;
+}
+
+.info-text{
+     font-family: "Montserrat";
+     font-style: normal;
+     font-weight: 300;
+     font-size: 21px;
+     line-height: 26px;
+     text-align: center;
+     color: #FFFFFF;
+}
+
+.com__div{
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+     margin: 0 auto;
+}
+
+.com-div{
+     display: flex;
+     width: 500px;
+}
+
+.com-div2{
+     width: 366px;
+}
+
+.com-hedding{
+     font-family: "Montserrat";
+     font-style: normal;
+     font-weight: 500;
+     font-size: 24px;
+     line-height: 29px;
+     letter-spacing: 0.03em;
+     color: #000000;
+}
+
+.com-text{
+     font-family: "Montserrat";
+     font-style: normal;
+     font-weight: 300;
+     font-size: 16px;
+     line-height: 20px;
+     color: #000000;
+     margin-top: 25px;
+     margin-bottom: 40px;
+}
+
+
+.com-link{
+     padding: 15px 30px;
+     background-color: #D7B399;
+     border-radius: 5px;
+}
+
+.com-img{
+     width: 190px;
+     height: 170px;
+}
+
+.mod-list{
+     list-style: none;
+     display: flex;
+     width: 100%;
+     flex-wrap: wrap;
+}
+
+
+.mod-item{
+     background-image: url(./images/fudbolka.jpg);
+     background-repeat: no-repeat;
+     width: 315px;
+     height: 236px;
+     background-size: cover;
+}
+
+
+.mod-text{
+     font-family: "Montserrat";
+     font-style: normal;
+     font-weight: 300;
+     font-size: 21px;
+     line-height: 26px;
+     letter-spacing: 0.03em;
+     color: #000000;
+     margin-top: 180px;
+     margin-left: 55px;
+}
+
+.nov-div{
+     width: 351px;
+     margin: 0 auto;
+}
+
+
+.nov-hedding{
+     font-family: "Montserrat";
+     font-style: normal;
+     font-weight: 700;
+     font-size: 36px;
+     line-height: 44px;
+     letter-spacing: 0.04em;
+     text-transform: uppercase;
+     color: #212121;
+}
+
+.nov-list{
+     list-style: none;
+     display: flex;
+     justify-content: space-between;
+     margin: 100px auto 0 auto;
+}
+
+
+.nov-item{
+     width: 255px;
+}
+
+
+.nov-img{
+     width: 205px;
+     height: 211px;
+}
+
+.nov-div2{
+     width: 93px;
+     margin: 0 auto;
+}
+
+.nov-text{
+     font-family: "Montserrat";
+     font-style: normal;
+     font-weight: 600;
+     font-size: 14px;
+     line-height: 17px;
+     text-align: center;
+     color: #000000;
+}
+
+.nov-bold{
+     font-family: "Montserrat";
+     font-style: normal;
+     font-weight: 700;
+     font-size: 18px;
+     line-height: 22px;
+     text-align: center;
+     color: #D7B399;
+}
+
+
+.nov-div3{
+     margin: 100px auto 0 auto;
+     width: 230px;
+}
+
+.nov-link{
+     margin-top: 100px;
+     font-family: "Montserrat";
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 20px;
+     letter-spacing: 0.03em;
+     color: #FFFFFF;
+     background: #D7B399;
+     padding: 18px 64px 18px 35px;
+     text-decoration: none;
+     border-radius: 5px;
+}
+
+.your-section{
+     width: 100%;
+     background-color: #000;
+     margin-top: 150px;
+}
+.your-div{
+     display: flex;
+     padding: 72px;
+}
+
+
+.your-div2{
+     width: 575px;
+     margin: 0 auto;
+}
+
+
+.your-text{
+     font-family: "Montserrat";
+     font-style: normal;
+     font-weight: 700;
+     font-size: 30px;
+     line-height: 37px;
+     text-align: center;
+     letter-spacing: 0.02em;
+     color: #FFFFFF;
+}
+
+.your-input{
+     font-family: 'Montserrat';
+     font-style: normal;
+     font-weight: 300;
+     font-size: 12px;
+     line-height: 15px;
+     text-align: center;
+     letter-spacing: 0.02em;
+     padding: 13px 164px 13px 20px;
+}
+
+.your-button{
+     padding: 13px;
+     margin-left: 35px;
+     background: #D7B399;
+}
+
+.footer{
+     background-color: #000;
+     margin-top: 150px;
+}
+
+.footer-list{
+     list-style: none;
+     display: flex;
+     justify-content: space-between;
+}
+
+.footer-item{
+     align-items: center;
+}
+
+.footer-item:nth-child(1){
+     width: 200px;
+}
+
+.footer-item:nth-child(2){
+     width: 116px;
+}
+
+.footer-item:nth-child(3){
+     width: 124px;
+}
+
+.footer-item:nth-child(4){
+     width: 137px;
+}
+
+.footer-item:nth-child(5){
+     width: 102px;
+}
+
+.footer-link:nth-child(1){
+     align-items: center;
+}
+
+.footer-link1{
+     font-family: "Montserrat";
+     font-style: normal;
+     font-weight: 700;
+     font-size: 10px;
+     line-height: 12px;
+     display: flex;
+     align-items: center;
+     text-transform: uppercase;
+     color: #FFFFFF;
+     text-decoration: none;
+}
+
+.footer-link{
+     display: block;
+     text-decoration: none;
+     font-family: "Montserrat";
+     font-style: normal;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 22px;
+     color: #CBCFD4;
+     margin-top: 20px;
+}
+
+.footer__div{
+     display: flex;
+     justify-content: space-around;
+}
+
+.footer__link{ 
+     font-family: 'Montserrat';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 22px;
+     text-decoration: none;
+     color: #212121;
+}
